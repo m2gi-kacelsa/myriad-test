@@ -19,10 +19,6 @@ To run the project, you should do the steps bellow:
 
 4. Launch project in the IDE
 
-### Run tests
-
-Run in IDE by clicking in class tests
-
 ### Test the API with Postman
 
 After installing Postman, we can test the API, once the application in successfully
@@ -39,7 +35,7 @@ started, we can test the two exposed services of the API:
       }
 
 2. Get User details: http://localhost:8080/api/user/userId
-   Response Example with userId=1:
+   Use the GET method, Response Example with userId=1:
     - {
       "id": 1,
       "username": "Test ",
